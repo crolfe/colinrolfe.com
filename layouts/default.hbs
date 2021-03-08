@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{{ description }}}" />
+
+	<title>{{{ title }}}</title>
+
+	<link rel="stylesheet" href="assets/css/bulma.min.css">
+	{{# if devBuild }}
+	<script src="http://dev-1.localdomain:35729/livereload.js"></script>
+	{{/if}}
+  </head>
+
+  <body>
+	  <section class="section">
+		<div class="container">
+			<h1 class="title is-1">{{{ title }}}</h1>
+			<p class="subtitle">
+			{{{ contents }}}
+			</p>
+		</div>
+	</section>
+
+	<hr class="navbar-divider">
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="container">
+		<div class="navbar-menu">
+			<div class="navbar-start">
+				<a class="navbar-item" href="https://twitter.com/colin_rolfe">
+					Twitter
+				</a>
+
+				<a class="navbar-item" href="https://linkedin.com/in/colinrolfe">
+					LinkedIn
+				</a>
+
+				<a class="navbar-item" href="https://github.com/crolfe">
+					Github
+				</a>
+
+			</div>
+		</div>
+		</div>
+	</nav>
+
+  </body>
+</html>

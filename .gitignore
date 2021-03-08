@@ -1,0 +1,4 @@
+# Metalsmith outputs here
+build
+
+node_modules
